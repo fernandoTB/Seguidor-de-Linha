@@ -1,9 +1,8 @@
-#include <Ultrasonic.h>
+#include <Ultrasonic.h>//inclui biblioteca dos sensores ultrassonicos
 
-Ultrasonic ultrasonic3(2, 10);
-int sensor1,sensor2,sensor3;
-int objeto=1;
-int cont=0;
+int sensor1,sensor2,sensor3;//variaveis interas que indicam os sensores1 2 e 3
+int objeto=1; // variavel que indica a presença do objeto
+int cont=0; //contador
 
 #define echoPin1 A2 //Pino ECHO do sensor1 no pino analógica A2
 #define trigPin1 A3 //Pino TRIG do sensor1 no pino analógica A3
